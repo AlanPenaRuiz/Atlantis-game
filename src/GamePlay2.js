@@ -17,7 +17,7 @@ GamePlayManager = {
     preload: function() {
         console.log('preload');
         //asignamos nombre, ruta del recurso
-        game.load.image('background', 'assets/images/shadow.jpg');
+        game.load.image('background', 'assets/images/Shadow.jpg');
         game.load.spritesheet('horse', 'assets/images/horse.png', 84, 156, 2); //ancho, alto, numero imagenes
         game.load.spritesheet('diamonds', 'assets/images/diamonds.png', 81, 84, 4);
         game.load.image('explosion', 'assets/images/explosion.png');
