@@ -134,6 +134,9 @@ GamePlayManager = {
             game.time.events.remove(this.timerGameOver);
             this.endGame = true;
             this.showFinalMessage('CONGRATULATIONS');
+            setTimeout(function() {
+                location.reload();
+            }, 5000);
         }
     },
     showFinalMessage: function(msg) {
